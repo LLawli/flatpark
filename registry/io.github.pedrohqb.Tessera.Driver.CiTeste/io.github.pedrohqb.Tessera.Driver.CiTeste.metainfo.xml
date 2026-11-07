@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="addon">
+  <id>io.github.pedrohqb.Tessera.Driver.CiTeste</id>
+  <extends>io.github.pedrohqb.Tessera</extends>
+  <name>CI fixture</name>
+  <summary>Fixture for testing extensions in CI</summary>
+  <description><p>Never published.</p></description>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-only</project_license>
+  <url type="homepage">https://github.com/pedrohqb/tessera</url>
+  <releases><release version="0.4.0" date="2026-11-04"/></releases>
+</component>

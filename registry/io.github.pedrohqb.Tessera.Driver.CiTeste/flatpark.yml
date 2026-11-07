@@ -1,0 +1,14 @@
+id: io.github.pedrohqb.Tessera.Driver.CiTeste
+name: CI fixture
+summary: Fixture for testing extensions in CI, never upstream
+website: https://github.com/pedrohqb/tessera
+source_url: https://github.com/pedrohqb/tessera
+build:
+  manifest: io.github.pedrohqb.Tessera.Driver.CiTeste.yml
+  branch: stable
+  mode: extra-data
+  extends: io.github.pedrohqb.Tessera
+catalog:
+  category: Security
+policy:
+  proprietary: false
