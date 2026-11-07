@@ -2,7 +2,7 @@ id: io.github.pedrohqb.Tessera.Driver.CiTeste
 branch: stable
 runtime: io.github.pedrohqb.Tessera
 runtime-version: stable
-sdk: org.gnome.Sdk//51
+sdk: org.gnome.Sdk//50
 build-extension: true
 separate-locales: false
 modules:
