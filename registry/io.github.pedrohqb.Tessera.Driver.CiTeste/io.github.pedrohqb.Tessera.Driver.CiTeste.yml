@@ -1,0 +1,27 @@
+id: io.github.pedrohqb.Tessera.Driver.CiTeste
+branch: stable
+runtime: io.github.pedrohqb.Tessera
+runtime-version: stable
+sdk: org.gnome.Sdk//51
+build-extension: true
+separate-locales: false
+modules:
+  - name: fixture
+    buildsystem: simple
+    build-commands:
+      - install -Dm755 apply_extra.sh ${FLATPAK_DEST}/bin/apply_extra
+      - install -Dm644 io.github.pedrohqb.Tessera.Driver.CiTeste.metainfo.xml -t ${FLATPAK_DEST}/share/metainfo
+    sources:
+      # BEGIN MANAGED EXTRA-DATA
+      - type: extra-data
+        filename: fixture.tar.gz
+        only-arches:
+          - x86_64
+        url: https://github.com/pedrohqb/tessera/releases/download/v0.2.1/tessera-x86_64.tar.gz
+        sha256: be58b5a47b9c3369b0a66bf9fcddd822c0ef2fc61814a910053e731fc36a6970
+        size: 1898590
+      # END MANAGED EXTRA-DATA
+      - type: file
+        path: apply_extra.sh
+      - type: file
+        path: io.github.pedrohqb.Tessera.Driver.CiTeste.metainfo.xml
