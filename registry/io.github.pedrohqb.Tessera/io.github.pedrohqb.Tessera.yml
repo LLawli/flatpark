@@ -1,6 +1,6 @@
 id: io.github.pedrohqb.Tessera
 runtime: org.gnome.Platform
-runtime-version: "51"
+runtime-version: "50"
 sdk: org.gnome.Sdk
 command: tessera
 separate-locales: false
