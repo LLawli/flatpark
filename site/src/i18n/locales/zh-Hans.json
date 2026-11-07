@@ -111,6 +111,7 @@
   "panel.permissions": "权限",
   "panel.review": "{n} 项需确认",
   "panel.minimal": "最少",
+  "panel.parent": "在 {name} 内运行，拥有它的全部权限：",
   "panel.none": "未声明任何特殊权限 —— 完全沙盒隔离。",
 
   "featured.pick": "★ 编辑精选",

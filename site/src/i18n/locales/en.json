@@ -111,6 +111,7 @@
   "panel.permissions": "Permissions",
   "panel.review": "{n} to review",
   "panel.minimal": "Minimal",
+  "panel.parent": "Runs inside {name}, with all of its permissions:",
   "panel.none": "No special permissions declared — fully sandboxed.",
 
   "featured.pick": "★ Editor's pick",
